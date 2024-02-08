@@ -24,7 +24,6 @@ check_pod_resource_usage() {
          echo "usage_value2: $usage_value2"
          
 
-
     # Verifică dacă utilizarea depășește pragul
     if [ "$resource_type" == "CPU" ]; then
         if [ -n "$usage_value" ] && [ "$(echo "$usage_value >= $threshold" | bc)" -eq 1 ]; then
