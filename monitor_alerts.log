@@ -1,0 +1,7 @@
+Thu Feb  8 10:34:07 EET 2024: Utilizare CPU pentru pod-ul high-cpu-pod în limita normală.
+Thu Feb  8 10:36:13 EET 2024: ALERT: Utilizarea memorie pentru pod-ul high-cpu-pod depășește pragul de 2 MiB.
+Thu Feb  8 10:36:22 EET 2024: ALERT: Utilizarea memorie pentru pod-ul mypod depășește pragul de 2 MiB.
+Thu Feb  8 10:36:29 EET 2024: Utilizare CPU pentru pod-ul mypod în limita normală.
+Thu Feb  8 10:43:16 EET 2024: ALERT: Utilizarea memorie pentru pod-ul high-memory-pod depășește pragul de 2 MiB.
+Thu Feb  8 10:43:31 EET 2024: Utilizare CPU pentru pod-ul high-memory-pod în limita normală.
+Thu Feb  8 11:43:17 EET 2024: Utilizare CPU pentru pod-ul high-cpu-pod în limita normală.
