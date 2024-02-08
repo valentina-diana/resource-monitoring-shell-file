@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: high-memory-pod
+spec:
+  containers:
+  - name: test-container
+    image: busybox
+    command: ["/bin/sh", "-c"]
+    args: ["while true; do dd if=/dev/zero of=/dev/null; done"]
+    resources:
+      limits:
+        memory: "201Mi"
+        cpu: "100m"
